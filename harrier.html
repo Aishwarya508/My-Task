@@ -1,0 +1,119 @@
+<!-- https://cars.tatamotors.com/suv/harrier -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tata Harrier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      .container {
+        display: flex;
+      }
+      .image {
+        width: 60%;
+        box-sizing: border-box;
+      }
+      .image img {
+        width: 100%;
+      }
+
+      .content {
+        background-color: #1d1d1d;
+        width: 40%;
+        box-sizing: border-box;
+        padding: 50px;
+      }
+      .content h2 {
+        color: #98170d;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 46px;
+      }
+      .content p {
+        color: #fff;
+        font-size: 15px;
+      }
+      .content a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .content a span {
+        color: #98170d;
+        font-size: 1.5em;
+      }
+      @media screen and (max-width: 575.98px) {
+        .container {
+          flex-wrap: wrap;
+        }
+        .content,
+        .image {
+          width: 100%;
+        }
+
+        .image {
+          order: 1;
+        }
+        .content {
+          order: 2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="image">
+        <img
+          src="https://cars.tatamotors.com/images/harrier/Automatic-headlamps.png"
+          alt=""
+        />
+      </div>
+      <div class="content">
+        <h2>STUNNING IMPACT DESIGN 2.0</h2>
+        <p>
+          Based on the Impact Design 2.0 philosophy, with strong proportions and
+          expressive surfaces providing an incredible stance, powerful road
+          presence and a sense of dynamism, Harrier is truly Above All.
+        </p>
+        <a href="#">
+          More About -> <br />
+          <span>Design</span>
+        </a>
+      </div>
+    </section>
+    <!-- design end -->
+
+    <!-- performance -->
+
+    <section class="container">
+      <div class="content">
+        <h2>EXHILARATING PERFORMANCE</h2>
+        <p>
+          With an all-new 6 speed Automatic Transmission mated to the next
+          generation Kryotec 170 Turbocharged BS6 Diesel engine makes for an
+          effortless driving experience.
+        </p>
+        <a href="">
+          More About ->
+          <span>Performance</span>
+        </a>
+      </div>
+      <div class="image">
+        <img
+          src="https://cars.tatamotors.com/images/harrier/6_speed_manual_transmission.png"
+          alt=""
+        />
+      </div>
+    </section>
+  </body>
+</html>
